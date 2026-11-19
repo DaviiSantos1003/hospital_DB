@@ -1,14 +1,42 @@
-hospital_DB
-Sobre o projeto
-O hospital_DB foi criado para organizar informações de um hospital, como pacientes, médicos, consultas, internações, quartos e prescrições, utilizando MySQL.
-Objetivo
-Colocar em prática conceitos de banco de dados relacionais e SQL, organizando informações e realizando consultas para analisar os dados.
-Tabelas
-- Pacientes: informações pessoais e convênios.
-- Médicos: dados e especialidades.
-- Consultas: datas, valores e status.
-- Internações: registros de entrada, saída e diárias.
-- Quartos: tipos e disponibilidade.
-- Prescrições: medicamentos e dosagens.
-Consultas
-O projeto conta com 10 consultas SQL que permitem analisar diferentes informações do hospital, utilizando JOIN, filtros, agrupamentos e funções de agregação e etc
+# ✚ hospital_DB
+
+## 📌 Sobre o projeto
+O `hospital_DB` é um projeto acadêmico desenvolvido em MySQL para organizar dados relacionados ao funcionamento de um hospital, reunindo informações sobre pacientes, médicos, consultas, internações, quartos e prescrições.
+
+## 🎯 Objetivo
+O projeto busca aplicar na prática os conceitos de banco de dados relacionais, permitindo armazenar, relacionar e consultar informações de forma organizada.
+
+## 🗄️ Estrutura do banco
+O banco de dados é formado por seis tabelas:
+
+- 🧑‍⚕️ Pacientes: dados dos pacientes e seus convênios.
+- 🩺 Médicos: informações dos profissionais e suas especialidades.
+- 📅 Consultas: registros dos atendimentos, datas, valores e status.
+- 🏨 Internações: dados sobre entradas, saídas e valores das diárias.
+- 🛏️ Quartos: identificação, tipo e situação dos quartos.
+- 💊 Prescrições: medicamentos, dosagens e quantidades prescritas.
+
+## ⚙️ Tecnologias utilizadas
+- 🐬 MySQL 8.0
+- 🖥️ MySQL Workbench
+
+## 📊 Consultas SQL
+O projeto possui 10 consultas SQL que permitem analisar diferentes informações do hospital, como faturamento de consultas, médias de valores, internações, prescrições e atendimentos realizados.
+
+Para isso, foram utilizados recursos como `INNER JOIN`, `WHERE`, `LIKE`, `GROUP BY`, `ORDER BY`, `SUM`, `AVG` e `COUNT`.
+
+## 📂 Organização dos arquivos
+Os arquivos SQL estão organizados na pasta `dumps/Dump20261112`, contendo os scripts de criação e preenchimento das tabelas, além do arquivo `querys.sql`, que reúne as consultas desenvolvidas.
+
+---
+
+## 👨‍💻 Autor
+
+Projeto desenvolvido como atividade acadêmica de Banco de Dados.
+
+**Autor:** Davi Pereira Santos
+
+---
+
+## 📚 Objetivo educacional
+O projeto foi desenvolvido para praticar a criação de tabelas, relacionamentos, chaves primárias e estrangeiras, inserção de dados e elaboração de consultas SQL, aplicando os conhecimentos adquiridos durante as aulas de Banco de Dados.
