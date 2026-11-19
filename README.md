@@ -1,5 +1,15 @@
 # ✚ hospital_DB
 
+## 📑 Sumário
+- [Sobre o projeto](#-sobre-o-projeto)
+- [Objetivo](#-objetivo)
+- [Estrutura do banco](#-estrutura-do-banco)
+- [Tecnologias utilizadas](#-tecnologias-utilizadas)
+- [Consultas SQL](#-consultas-sql)
+- [Organização dos arquivos](#-organização-dos-arquivos)
+- [Autor](#-autor)
+- [Objetivo educacional](#-objetivo-educacional)
+
 ## 📌 Sobre o projeto
 O `hospital_DB` é um projeto acadêmico desenvolvido em MySQL para organizar dados relacionados ao funcionamento de um hospital, reunindo informações sobre pacientes, médicos, consultas, internações, quartos e prescrições.
 
@@ -34,7 +44,7 @@ Os arquivos SQL estão organizados na pasta `dumps/Dump20261112`, contendo os sc
 
 Projeto desenvolvido como atividade acadêmica de Banco de Dados.
 
-**Autor:** Davi Pereira Santos
+**Autor:** Felipe Lisboa Carvalho
 
 ---
 
